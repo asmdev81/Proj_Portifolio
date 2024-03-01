@@ -57,9 +57,9 @@ header nav ul li {
 
 /*Section_1 */
 .text_intro {
-    margin: 2em auto;
+    margin: 8em auto;
     max-width: 100em;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     line-height: 3em;
