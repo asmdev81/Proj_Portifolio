@@ -1,4 +1,4 @@
-/* Style geral */
+/* geral */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     height: 100vh;
 }
 
-/* Style topo */
+/* topo */
 header {
     margin: 0 auto;
     padding: 10px 2%;
@@ -55,7 +55,7 @@ header nav ul li {
 }
 
 
-/*Section_1 */
+/* Section_1 */
 .text_intro {
     margin: 8em auto;
     max-width: 100em;
