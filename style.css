@@ -73,7 +73,7 @@ header nav ul li {
 
 .intro h1 {
     font-weight: 400;
-    font-size: 3em;
+    font-size: 2em;
     line-height: 2em;
 }
 
@@ -97,19 +97,22 @@ header nav ul li {
 
 .intro span {
     color: #05feef;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 
 .intro .p1 {
-    font-weight: 400;
-    font-size: 2em;
+    font-weight: 200;
+    font-size: 2.5em;
+    color: #0df94f;
 }
 
 
-.intro .p2 {
+.intro .p2 , .p3{
     font-weight: 200;
     line-height: 2em;
+    font-size: 1em;
+    
 }
 
 .img1 {
