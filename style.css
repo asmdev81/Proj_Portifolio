@@ -119,17 +119,21 @@ header nav ul li {
     font-size: 1em;
 }
 
+
 .img1 {
     display: flex;
     align-items: center;
-    max-width: 40em;
+    max-width: 50em;
     margin-top: 2em;
     padding: 10px;
 }
 
 .img1 img {
     width: 100%;
+    opacity: 0.8;
+    z-index: -1;
 }
+
 
 
 .social {
