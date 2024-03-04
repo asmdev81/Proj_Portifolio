@@ -56,10 +56,10 @@ header nav ul li {
 
 /* Section_1 */
 .text_intro {
-    margin: 8em auto;
+    margin: 5em auto;
+    padding: 10px 2%;
     max-width: 100em;
-    padding: 20px;
-    display: grid;
+    display: flex;
     align-items: center;
     line-height: 3em;
     letter-spacing: 2px;
@@ -125,13 +125,23 @@ header nav ul li {
 }
 
 .social {
-    margin: 0 auto;
+    margin: 5em auto;
+    padding: 10px 2%;
     max-width: 100em;
+    display: flex;
+    align-items: center;
 }
 
 
 .social ul {
-    display: flex;
- 
-   
+    list-style-type: none;
+    margin-left: 12em; 
 }
+
+
+.social ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
