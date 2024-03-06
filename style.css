@@ -121,8 +121,10 @@ header nav ul li {
     letter-spacing: 0.1em;
 }
 
-.button {
+.button button {
+    
     border: 1px #00ffd5 solid;
+    background: #00ffd5;
 }
 
 
