@@ -22,7 +22,6 @@ header {
 .interface {
     max-width: 100em;
     margin: 0 auto;
-
 }
 
 header>.interface {
@@ -46,44 +45,40 @@ header nav ul {
 header nav ul li :hover {
     border-bottom: 4px solid #05feef;
     color: #05feef;
-
 }
 
 header nav ul li {
     display: inline-block;
-    padding: 0 40px;
+    padding: 10px;
+    margin: 1em;
 }
-
 
 /* Section_1 */
 .text_intro {
     margin: 0 auto;
-    padding: 10px;
     max-width: 100em;
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 3em;
-    letter-spacing: 2px;
+
+    border: #05feef 1px solid;
 }
 
 .intro {
-    padding: 10px;
     margin-left: 5em;
-    padding: 10px;
-    letter-spacing: 3px;
+    line-height: 1.5;
 }
 
 .intro h1 {
-    font-weight: 400;
-    font-size: 4em;
-    line-height: 3em;
+    font-weight: 700;
+    font-size: 3em;
 }
 
-.intro h2 .name {
+.intro h2 {
     position: relative;
-    font-size: 1.5em;
-    font-weight: 400;
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: 600;
     letter-spacing: 0.2em;
     color: #05feef;
     animation: neon 1s ease-in-out infinite alternate-reverse;
@@ -91,55 +86,67 @@ header nav ul li {
 
 @keyframes neon {
     from {
-        text-shadow: 0 0 60px #05feef,
+        text-shadow: 0 0 60px #9fe6e1,
             0 0 60px #9fd3cf,
             0 0 55px #7a7c7c;
     }
 }
 
-
 .intro span {
-    color: #05feef;
     font-size: 1em;
 }
 
+.intro .ponto {
+    font-size: 2em;
+    color: #05feef;
+    letter-spacing: 0.2em;
+}
+
+.intro h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
 
 .intro .p1 {
     font-weight: 200;
     font-size: 1.8em;
-    color: #ffffff;
-    padding: 20px 0;
+    letter-spacing: 0.1em;
 }
 
 
-.intro .p2,
-.p3 {
+.intro .p3 {
+    padding-top: 20px;
     font-weight: 200;
-    line-height: 2em;
-    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+.button {
+    border: 1px #00ffd5 solid;
 }
 
 
 .img1 {
     display: flex;
     align-items: center;
-    max-width: 50em;
-    margin-top: 2em;
+    max-width: 30em;
+    margin: 0 auto;
     padding: 10px;
+
+    border: #05feef 1px solid;
 }
 
 .img1 img {
     width: 100%;
     opacity: 0.8;
     z-index: -1;
+
+    border: #05feef 1px solid;
 }
-
-
 
 .social {
     list-style-type: none;
 }
-
 
 .social li {
     display: inline-flex;
@@ -173,7 +180,6 @@ header nav ul li {
     transition: opacity .3s ease-in-out;
     border-radius: 50%;
 }
-
 
 .social li:active {
     color: #000
@@ -213,8 +219,6 @@ header nav ul li {
     }
 }
 
-
-
 .social a {
     display: inline-flex;
     text-decoration: none;
@@ -227,7 +231,6 @@ header nav ul li {
     position: relative;
     margin: 0 8px;
 }
-
 
 .social a i {
     transition: 0.3s ease-in;
