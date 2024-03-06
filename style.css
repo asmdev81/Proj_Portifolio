@@ -60,8 +60,6 @@ header nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border: #05feef 1px solid;
 }
 
 .intro {
@@ -121,10 +119,22 @@ header nav ul li {
     letter-spacing: 0.1em;
 }
 
+.button {
+    margin: 1PX;
+    padding-top: 20px;
+}
+
+
 .button button {
-    
-    border: 1px #00ffd5 solid;
-    background: #00ffd5;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: aqua;
+    opacity: 0.2;
+    color: #000000;
+    border-radius: 20px;
+    border: 0;
+    padding: 10PX 30px;
+    cursor: pointer;
 }
 
 
@@ -134,16 +144,12 @@ header nav ul li {
     max-width: 30em;
     margin: 0 auto;
     padding: 10px;
-
-    border: #05feef 1px solid;
 }
 
 .img1 img {
     width: 100%;
     opacity: 0.8;
     z-index: -1;
-
-    border: #05feef 1px solid;
 }
 
 .social {
