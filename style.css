@@ -64,7 +64,7 @@ header nav ul li {
 
 .intro {
     margin: 0 auto;
-    padding: 1em;
+  
     line-height: 1.5;
 }
 
@@ -116,16 +116,13 @@ header nav ul li {
 
 .img1 {
     display: flex;
-    align-items: center;
-    max-width: 30em;
-    margin: 0 auto;
+    align-items:center;
+    max-width: 40em;
     padding: 10px;
 }
 
 .img1 img {
     width: 100%;
-    opacity: 0.8;
-    z-index: -1;
 }
 
 .container_contato {
