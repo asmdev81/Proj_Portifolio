@@ -74,21 +74,11 @@ header nav ul li {
 }
 
 .intro h2 {
-    position: relative;
     padding-top: 20px;
     font-size: 2em;
     font-weight: 600;
     letter-spacing: 0.1em;
     color: #05feef;
-    animation: neon 1s ease-in-out infinite alternate-reverse;
-}
-
-@keyframes neon {
-    from {
-        text-shadow: 0 0 60px #9fe6e1,
-            0 0 60px #9fd3cf,
-            0 0 55px #7a7c7c;
-    }
 }
 
 .intro span {
