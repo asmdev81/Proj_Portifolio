@@ -103,7 +103,8 @@ header nav ul li {
 
 .intro .p2 {
     letter-spacing: 0.1em;
-    font-weight: 100;
+    font-weight: 200;
+    color: #fffs;
 }
 
 .intro .p3 {
@@ -130,13 +131,6 @@ header nav ul li {
     align-items: center;
 }
 
-.button a {
-    position: absolute;
-    color: #3fb8b8;
-    z-index: 1;
-    text-decoration: none;
-}
-
 .button {
     width: 10em;
     height: 3em;
@@ -153,6 +147,14 @@ header nav ul li {
         color: #05feef;
         font-size: 1em;
     }
+}
+
+.button a {
+    max-width: 100%;
+    position: absolute;
+    color: #3fb8b8;
+    z-index: 1;
+    text-decoration: none;
 }
 
 .icons_social {
