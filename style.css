@@ -201,4 +201,11 @@ header nav ul li {
     border: #05feef 1px chocolate;
 }
 
+.sobremim {
+    margin: 0 auto;
+    max-width: 100em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 
+}
