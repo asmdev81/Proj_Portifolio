@@ -115,7 +115,7 @@ header nav ul li {
 
 .img1 {
     display: flex;
-    align-items:center;
+    align-items: center;
     max-width: 40em;
     margin-right: 2em;
     padding: 10px;
@@ -159,7 +159,7 @@ header nav ul li {
 .icons_social {
     align-items: center;
     margin: 0 auto;
- }
+}
 
 .social {
     list-style-type: none;
@@ -178,14 +178,14 @@ header nav ul li {
 .social li i {
     font-size: 25px;
     padding: 10px;
- }
-
-.social li a {
-   text-decoration: none;
-   font-size: 12px;
 }
 
-.git i{
+.social li a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.git i {
     color: #b66ee0;
 }
 
@@ -197,15 +197,56 @@ header nav ul li {
     color: #3fb8b8;
 }
 
-.sobre .sobremim {
-    border: #05feef 1px chocolate;
-}
-
-.sobremim {
+.sobre {
     margin: 0 auto;
     max-width: 100em;
-    display: grid;
+    align-items: center;
+}
+
+.Sobre_h1 {
+    margin: 1em;
+    font-weight: 700;
+    font-size: 3em;
+
+}
+
+.sobre_content {
+    margin: 0 auto;
+    max-width: 100em;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.img2 {
+    width: 40em;
+}
+
+.img2 img {
+    width: 100%;
+}
+
+.text_sobre {
+    width: 40em;
+    border: #0ee054 1px solid;
+
+}
+
+.text_sobre h2 {
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+
+    border: #0ee054 1px solid;
+
+}
+
+
+.text_sobre p {
+    font-weight: 200;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-align: initial;
 }
