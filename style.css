@@ -203,8 +203,12 @@ header nav ul li {
     align-items: center;
 }
 
+.sobre_tittle {
+    margin: 2em;
+
+}
+
 .Sobre_h1 {
-    margin: 1em;
     font-weight: 700;
     font-size: 3em;
 
@@ -212,14 +216,13 @@ header nav ul li {
 
 .sobre_content {
     margin: 0 auto;
-    max-width: 100em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .img2 {
-    width: 40em;
+    width: 30em;
 }
 
 .img2 img {
@@ -227,8 +230,8 @@ header nav ul li {
 }
 
 .text_sobre {
-    width: 40em;
-    border: #0ee054 1px solid;
+    width: 50em;
+
 
 }
 
@@ -239,7 +242,6 @@ header nav ul li {
     letter-spacing: 0.1em;
     color: #ffffff;
 
-    border: #0ee054 1px solid;
 
 }
 
