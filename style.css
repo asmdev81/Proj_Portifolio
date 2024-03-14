@@ -199,9 +199,13 @@ header nav ul li {
     margin: 0 auto;
     max-width: 100em;
     align-items: center;
+
+
 }
 
 .sobre_tittle {
+    scroll-margin-top: 500px;
+
 
 }
 
@@ -221,7 +225,7 @@ header nav ul li {
 }
 
 .img2 {
-    width: 100em;
+    width: 30em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,6 +244,7 @@ header nav ul li {
 .text_sobre {
     margin: 1em;
     padding: 40px;
+    width: 70%;
 }
 
 .text_sobre {
