@@ -38,9 +38,9 @@ header ul li a {
 }
 
 header ul li a:hover {
-    transform: scale(1.08);
+
     color: #05feef;
-    border-bottom: #05feef 1px solid;
+  
 }
 
 header nav ul {
@@ -201,7 +201,9 @@ header nav ul li {
     align-items: center;
 }
 
-.sobre_tittle {}
+.sobre_tittle {
+    margin-top: 5em;
+}
 
 .Sobre_h1 {
     font-weight: 700;
@@ -213,34 +215,36 @@ header nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100em;
+
 }
 
 .img2 {
-    width: 80em;
+    width: 100em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
 }
 
 .img2 img {
     width: 100%;
+    border: #05feef 5px solid;
+    background-color: #000;
+    border-top-left-radius: 20%;
+    height: 14em;
+    width: 12em;
 }
 
 .text_sobre {
-    margin: 0 auto;
-
-
+    margin: 1em;
+    padding: 40px;
 }
 
-.text_sobre h2 {
-    padding-top: 20px;
-    font-size: 2em;
-    font-weight: 600;
+.text_sobre {
+    text-indent: 40px;
+    line-height: 2em;
     letter-spacing: 0.1em;
-    color: #ffffff;
-
-
-}
-
-
-.text_sobre {
-
-    text-indent: 20px;
+    font-weight: 200;
+    font-style: italic;
 }
