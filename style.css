@@ -202,10 +202,11 @@ header nav ul li {
 }
 
 .sobre_tittle {
-    margin-top: 5em;
+
 }
 
 .Sobre_h1 {
+    margin-left: 5em;
     font-weight: 700;
     font-size: 3em;
 }
