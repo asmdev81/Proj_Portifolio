@@ -67,7 +67,7 @@ a:hover {
 
 /*topo do site*/
 header {
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0px 40px;
     text-align: center;
@@ -93,16 +93,20 @@ header ul li a:hover {
 
 /* Section_1 */
 .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
-    justify-content: center ;
     align-items: center;
-
+    justify-content: center;
 
     border: 1px solid #df2525;
 }
 
 .content_principal {
-    
+    max-width: 100%;
     margin: 10px;
     padding: 10px;
     height: 30em;
@@ -125,7 +129,7 @@ header ul li a:hover {
 
 
 .img1 img {
-    width: 30em
+    width: 30em;
 }
 
 .content_principal h1 span {
