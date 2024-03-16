@@ -67,11 +67,10 @@ a:hover {
 
 /*topo do site*/
 header {
-    width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0px 40px;
     text-align: center;
-    margin-bottom: 20px;
     align-items: center;
 }
 
@@ -94,9 +93,7 @@ header ul li a:hover {
 
 /* Section_1 */
 .container {
-    margin: 20px auto;
-    height: 80vh;
-    width: 80%;
+    max-width: 100%;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -106,10 +103,30 @@ header ul li a:hover {
 }
 
 .content_principal {
+    
     margin: 10px;
     padding: 10px;
     height: 30em;
     align-items: center;
+
+
+    border: 1px solid #f3ebeb;
+
+
+}
+
+.img1 {
+    margin: 10px;
+    padding: 10px;
+    height: 30em;
+    align-items: center;
+
+    border: #fff 1px solid;
+}
+
+
+.img1 img {
+    width: 30em
 }
 
 .content_principal h1 span {
@@ -215,16 +232,10 @@ header ul li a:hover {
     color: #2b8882;
 }
 
-.img1 {
-    margin: 10px;
-    padding: 10px;
-    height: 30em;
-    align-items: center;
-}
 
 
 .img2 img {
-    width: 10em;
+    width: 5em;
 }
 
 
