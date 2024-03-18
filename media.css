@@ -1,0 +1,54 @@
+/* Estilos para telas menores que 768px (tablets e smartphones em modo retrato) */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .content_principal h1 {
+        font-size: 2rem;
+    }
+
+    .content_principal p {
+        font-size: 1rem;
+    }
+
+    .content_principal h2 {
+        font-size: 1.5rem;
+    }
+
+    .content_principal h3 {
+        font-size: 1.2rem;
+    }
+
+    .content_social ul li {
+        margin-right: 5px;
+    }
+}
+
+/* Estilos para telas menores que 576px (smartphones em modo retrato) */
+@media (max-width: 576px) {
+    .content_principal h1 {
+        font-size: 1.5rem;
+    }
+
+    .content_principal p {
+        font-size: 0.8rem;
+    }
+
+    .content_principal h2 {
+        font-size: 1.2rem;
+    }
+
+    .content_principal h3 {
+        font-size: 1rem;
+    }
+
+    .content_social ul li {
+        margin-right: 3px;
+    }
+}

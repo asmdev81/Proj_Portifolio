@@ -1,11 +1,258 @@
-/* geral */
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*corpo do site*/
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.content_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a {
+    transition: .2s;
+    color: #adadad;
+}
+
+header ul li a:hover {
+    color: #fff;
+    border-bottom: 5px #05feef solid;
+}
+
+main {
+    padding: 2rem;
+}
+
+.container_1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_principal {
+    padding: 2rem;
+}
+
+.content_principal h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.content_principal h1 span{
+    color: #05feef;
+}
+
+.content_principal .p1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.content_principal h2 {
+    font-size: 1.8rem;
+    color: #05feef;
+}
+
+.content_principal h2 span{
+   color: #fff;
+}
+
+.content_principal h3 {
+    font-size: 1.5rem;
+}
+
+.content_principal .p2 {
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+
+.content_principal .p3 {
+    font-size: .9rem;
+    margin-bottom: 2rem;
+}
+
+.content_contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.content_saibamais {
+    padding: 10px;
+}
+
+.content_saibamais a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    padding: 15px;
+    color: #05feef;
+    border-radius: 30px;
+    border: 3px solid #05feef;
+    cursor: pointer;
+}
+
+.content_saibamais a:hover {
+    color: #05feef;
+    font-weight: 600;
+    padding: 15px;
+    transform: scale(1.08);
+    border: 4px solid #05feef;
+}
+
+.content_social ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.content_social ul li {
+    margin-right: 10px;
+}
+
+.content_social ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.img1 {
+    margin-top: 2rem;
+}
+
+.img1 img {
+    width: 100%;
+    height: auto;
+}
+
+.content_social ul li:hover {
+    font-weight: 600;
+    transform: scale(1.08);
+}
+
+.git {
+    color: rgb(176, 105, 243);
+
+    border: #fff solid;
+}
+
+.linkedin {
+    color: rgb(70, 162, 255);
+}
+
+.fale_C {
+    color: #2b8882;
+}
+
+
+
+
+
+
+
+.Sobre_h1 {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.content_sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.img2 img {
+    width: 100%;
+    height: auto;
+}
+
+.text_sobre {
+    flex: 2;
+}
+
+.text_sobre p {
+    margin-bottom: 1rem;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: "Poppins", sans-serif;
     letter-spacing: 2px;
@@ -15,7 +262,6 @@ body {
     max-width:100%;
 }
 
-/*Config_padrão*/
 h1,
 h2,
 h3,
@@ -27,7 +273,6 @@ li {
     box-sizing: border-box;
 }
 
-/* Estilos adicionais */
 
 h1 {
     font-size: 2em;
@@ -66,9 +311,8 @@ a:hover {
     text-decoration: none;
 }
 
-/*topo do site*/
 header {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0px 40px;
     text-align: center;
@@ -92,7 +336,7 @@ header ul li a:hover {
     border-bottom: 5px #05feef solid;
 }
 
-/* Section_1 */
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -175,32 +419,7 @@ header ul li a:hover {
     width: 42em;
 }
 
-.content_saibamais {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-}
 
-.content_saibamais a {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    height: 50px;
-    padding: 15px;
-    color: #05feef;
-    border-radius: 30px;
-    border: 2px solid #05feef;
-    cursor: pointer;
-}
-
-.content_saibamais a:hover {
-    color: #05feef;
-    font-weight: 600;
-    padding: 15px;
-    transform: scale(1.08);
-    border: 4px solid #05feef;
-}
 
 .content_social {
     display: flex;
@@ -211,31 +430,6 @@ header ul li a:hover {
     cursor: pointer;
 }
 
-.content_social ul li {
-    font-weight: 400;
-}
-
-.content_social ul li:hover {
-    font-weight: 600;
-    transform: scale(1.08);
-}
-
-.content_social ul li i {
-    font-size: 25px;
-}
-
-.git {
-    color: rgb(176, 105, 243);
-}
-
-.linkedin {
-    color: rgb(70, 162, 255);
-}
-
-.fale_C {
-    color: #2b8882;
-}
-
 
 
 .img2 img {
@@ -243,7 +437,7 @@ header ul li a:hover {
 }
 
 
-
+*/
 
 
 
