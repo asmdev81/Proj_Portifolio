@@ -111,10 +111,7 @@ main {
     justify-content: space-between;
     align-items: center;
     margin-top: 1rem;
-}
-
-.content_saibamais {
-    padding: 10px;
+    gap: 20px;
 }
 
 .content_saibamais a {
@@ -146,11 +143,33 @@ main {
 
 .content_social ul li {
     margin-right: 10px;
+    font-size: 15px;
 }
 
 .content_social ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+.content_social ul li:hover {
+    font-weight: 600;
+    transform: scale(1.08);
+}
+
+.content_social ul li i {
+    font-size: 20px;
+}
+
+.git {
+    color:#c179eb ;
+}
+
+.linkedin {
+    color: #39a8db ;
+}
+
+.fale_C {
+    color: #2b8882;
 }
 
 .img1 {
@@ -162,31 +181,6 @@ main {
     height: auto;
 }
 
-.content_social ul li:hover {
-    font-weight: 600;
-    transform: scale(1.08);
-}
-
-.git {
-    color: rgb(176, 105, 243);
-
-    border: #fff solid;
-}
-
-.linkedin {
-    color: rgb(70, 162, 255);
-}
-
-.fale_C {
-    color: #2b8882;
-}
-
-
-
-
-
-
-
 .Sobre_h1 {
     text-align: left;
     margin-top: 2rem;
@@ -195,23 +189,29 @@ main {
 }
 
 .content_sobre {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .img2 {
-    flex: 1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 2rem;
 }
 
 .img2 img {
-    width: 100%;
-    height: auto;
+    width: 10rem;
 }
 
 .text_sobre {
     flex: 2;
+    margin: 0 auto;
+    height: auto;
+    max-width: 50rem;
 }
 
 .text_sobre p {
