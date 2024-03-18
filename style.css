@@ -195,7 +195,7 @@ main {
 .content_social ul {
     list-style-type: none;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-top: 2rem;
 }
 
