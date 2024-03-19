@@ -154,17 +154,24 @@ main {
     border: #fff 1px solid;
 }
 
-.Sobre_h1 {
+.Sobre_mim {
     text-align: left;
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
 
+.Sobre_mim h3 {
+    text-align: left;
+    margin-top: 2rem;
+
+}
+
 .img2 {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 
 }
 
