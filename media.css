@@ -30,7 +30,6 @@
     }
 }
 
-/* Estilos para telas menores que 576px (smartphones em modo retrato) */
 @media (max-width: 576px) {
     .content_principal h1 {
         font-size: 1.5rem;
