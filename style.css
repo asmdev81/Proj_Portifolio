@@ -63,6 +63,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .content_principal {
@@ -102,7 +103,8 @@ main {
 }
 
 .content_principal .p3 {
-    font-size: .9rem;
+    font-size: .8rem;
+    font-weight: 500;
     margin-bottom: 2rem;
 }
 
@@ -110,8 +112,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
-    gap: 20px;
 }
 
 .content_saibamais a {
@@ -136,7 +136,7 @@ main {
 }
 
 .img1 {
-    margin-top: 2rem;
+    padding: 2rem;
 }
 
 .img1 img {
@@ -147,30 +147,27 @@ main {
 .container_2 {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
     align-items: center;
+    padding: 20px 20px;
+    margin-bottom: 3rem;
 }
 
 .Sobre_mim {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
     font-size: 2rem;
 }
 
 .Sobre_mim h1 {
-    padding-left: 3rem;
+    padding: 2rem;
 }
 
 .content_sobre {
-    margin-top: 2em;
+    padding: 2rem;
 }
 
 .img2 {
     display: flex;
     align-items: center;
-    padding-left: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    justify-content: left;
 }
 
 .img2 img {
@@ -182,9 +179,7 @@ main {
 }
 
 .content_social {
-    width: 60rem;
-    display: block;
-    margin-left: 20px;
+    padding: 2rem;
 }
 
 .content_social h3 {
@@ -194,12 +189,13 @@ main {
 .content_social ul {
     list-style-type: none;
     display: inline-flex;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .content_social ul li {
     align-items: center;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .content_social ul li a {
@@ -229,7 +225,7 @@ main {
     color: #2b8882;
 }
 
-.text_sobre {
+/*.text_sobre {
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -240,12 +236,21 @@ main {
     margin-left: 3rem;
     padding: 10px;
     font-style: italic;
+}*/
+
+.content_sobre2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 
-
-
-
+.menu{
+    padding: 2rem;
+}
 
 
 
@@ -253,16 +258,22 @@ main {
 .item {
     cursor: pointer;
     padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 5px;
+    margin-bottom: 2rem;
+    width: 25rem;
+
+    background: #d60999;
+
   }
   
   .description {
     display: none;
-    background-color: #eb1313;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 2rem;
     margin-top: 5px;
+    width: 40rem;
+    height: 20rem;
+    
+
+    background: #4939db;
   }
   
 
