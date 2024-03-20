@@ -153,11 +153,7 @@ main {
 }
 
 .Sobre_mim {
-    font-size: 2rem;
-}
-
-.Sobre_mim h1 {
-    padding: 2rem;
+    font-size: 1.5rem;
 }
 
 .content_sobre {
@@ -175,7 +171,7 @@ main {
     border-radius: 50%;
     height: 10rem;
     width: 10rem;
-    background: #378d87;
+    background: #1c4745;
 }
 
 .content_social {
@@ -225,19 +221,6 @@ main {
     color: #2b8882;
 }
 
-/*.text_sobre {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-
-.text_sobre p {
-    font-weight: 200;
-    margin-left: 3rem;
-    padding: 10px;
-    font-style: italic;
-}*/
-
 .content_sobre2 {
     max-width: 1200px;
     margin: 0 auto;
@@ -248,12 +231,9 @@ main {
 }
 
 
-.menu{
+.sobre {
     padding: 2rem;
 }
-
-
-
 
 .item {
     cursor: pointer;
@@ -262,20 +242,24 @@ main {
     width: 25rem;
     border-radius: 20px;
     color: #05feef;
-    background: #1f2020;
+
+    background: #111;
 
   }
   
   .description {
     display: none;
+    align-items: center;
     padding: 2rem;
     margin-top: 5px;
     width: 40rem;
     height: 20rem;
+    border: #05feef 5px solid;
     border-radius: 20px;
+
+    background: #111;
     
 
-    background: #4939db;
   }
   
 
