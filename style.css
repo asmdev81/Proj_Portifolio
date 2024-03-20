@@ -149,30 +149,29 @@ main {
     margin: 0 auto;
     padding: 0 20px;
     align-items: center;
-
-
-    border: #fff 1px solid;
 }
 
 .Sobre_mim {
-    text-align: left;
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
 
-.Sobre_mim h3 {
-    text-align: left;
-    margin-top: 2rem;
+.Sobre_mim h1 {
+    padding-left: 3rem;
+}
+
+.content_sobre {
 
 }
 
+
+
 .img2 {
-    margin: 0 auto;
+    width: 300rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
+    padding-left: 3rem;
 }
 
 .img2 img {
@@ -180,41 +179,29 @@ main {
     border-radius: 50%;
     height: 10rem;
     width: 10rem;
-}
 
-.container_2 {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    background: #05feef;
 }
 
 .text_sobre {
-    flex: 2;
-    margin: 0 auto;
     height: auto;
-    max-width: 40rem;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
 .text_sobre p {
     font-size: 15px;
     font-weight: 300;
     margin-bottom: 1rem;
-    text-align: ;
-}
-
-.container_2 h1 {
-    margin: 5rem auto;
-    padding-left: 1.5em;
+    padding: 10px;
 }
 
 .content_social ul {
     list-style-type: none;
     padding: 20px;
     margin-top: 2rem;
-
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .content_social ul li {
