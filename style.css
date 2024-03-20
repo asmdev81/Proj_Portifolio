@@ -169,6 +169,8 @@ main {
     display: flex;
     align-items: center;
     padding-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .img2 img {
@@ -180,7 +182,7 @@ main {
 }
 
 .content_social {
-    width: 50rem;
+    width: 60rem;
     display: block;
     margin-left: 20px;
 }
@@ -192,7 +194,7 @@ main {
 .content_social ul {
     list-style-type: none;
     display: inline-flex;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .content_social ul li {
@@ -235,7 +237,8 @@ main {
 
 .text_sobre p {
     font-weight: 200;
-    padding: 20px;
+    margin-left: 3rem;
+    padding: 10px;
     font-style: italic;
 }
 
